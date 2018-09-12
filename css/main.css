@@ -2,5 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700');
 @import "reset.css";
 @import "bootstrap.min.css";
+@import "font-awesome.min.css";
+@import "animations.css";
 @import "style.css";
 @import "media.css";

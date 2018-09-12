@@ -4,7 +4,6 @@
 	}
 
 }
-
 @media (max-width:991px) {
 	header {
 		padding: 20px 0
@@ -64,10 +63,30 @@
 	.superb-trainers-section h2 {
 		margin-bottom: 50px
 	}
+	.footer-top,.footer-middle {
+		display: block;
+	}
+	.footer-top-left {
+		max-width: 700px;
+	}
+	.footer-middle .footer-middle-left {
+		max-width: 100%;
+		margin-bottom: 30px;
+	}
+	.footer-middle .footer-middle-right {
+		max-width: 100%;
+	}
+	.footer-middle {
+		padding: 30px 0 10px;
+	}
+	.footer-middle-left h3 {
+		margin-bottom: 15px !important;
+	}
 
 }
 
 @media (max-width:767px) {
+	.pricing-plans h3{ margin-bottom: 20px; }
 	.hamburger-menu {
 		display: block
 	}
@@ -182,6 +201,13 @@
 		right: 0;
 		padding-left: 55px;
 		padding-right: 15px;
+	}
+	.contact-form .form-field.field-col-2 {
+		width: 100%;
+	}
+	.contact-form .form-field.field-col-1 {
+	    width: 100%;
+	    max-width: 280px;
 	}
 
 }
